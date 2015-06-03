@@ -1,4 +1,4 @@
-angular.module('OWMApp', ['ngRoute'])
+angular.module('OWMApp', ['ngRoute', 'ngAnimate'])
 	.value('owmCities', ['New York', 'Dallas', 'Chicago'])
 	.config(['$routeProvider', function($routeProvider) {
 		$routeProvider.when('/', {
